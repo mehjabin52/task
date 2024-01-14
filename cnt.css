@@ -1,0 +1,120 @@
+#headline
+{
+    width: 100%;
+    height: 53px;
+    flex-shrink: 0;
+    background-color: #CBCDA9;
+}
+#header
+{
+    width: 100%;
+    height: 1128px;
+    background: #FFFFE9;
+}
+#nav{
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#nav a{
+    text-decoration: none;
+    color:#000;
+    padding-left: 10px;
+}
+#header #text h1
+{
+    color: #000;
+    font-family: Source Serif Pro;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+}
+#header #text p{
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#header #fff #fm
+{
+    border-radius: 8px;
+    background: #201F1F;
+    width: 766px;
+    height: 563px;
+    flex-shrink: 0;
+    margin-left: 10%;
+}
+#header #fff #fm h2
+{
+    color: #FFF;
+    font-family: Source Serif Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    padding-left: 70px;
+    padding-top: 70px;
+    border-top: 100px;
+}
+ form 
+{
+    padding-left: 70px; 
+    
+}
+form input {
+    width: 367.824px;
+    height: 42.285px;
+    flex-shrink: 0;
+    border-radius: 2.205px;
+    border: 0.368px solid #8D8D8D;
+    background: #343333;
+}
+#fff #fm #name #email #massage
+{
+    color: #CCC6C6;
+    font-family: Lexend Deca;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+#fff #fm #submit{
+    display: inline-flex;
+    padding: 9px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 1.725px;
+    background: #F3F25B;
+    margin-top: 10px;
+    width: 170px;
+}
+#fff #fm #submit:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+#header #ph img
+{
+    width: 433px;
+    height: 563px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-left: 50%;
+    margin-top: -65%;
+    margin-bottom: 15px;
+    border-radius: 0px 10px 10px 0px;
+}

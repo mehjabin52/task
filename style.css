@@ -1,0 +1,140 @@
+#pl
+{
+    width: 100%;
+    height: 53px;
+    flex-shrink: 0;
+    background-color: #CBCDA9;
+}
+#ml
+{
+    width: 100%;
+    height: 700px;
+    background: #FFFFE9;
+}
+#ml #topnav {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#ml #topnav a{
+    text-decoration: none;
+    color:#000;
+    padding-left: 10px;
+}
+#st{
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    position: relative;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(255, 255, 233, 0.40) 0%, rgba(255, 255, 233, 0.40) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+#st img{
+    width: 100%;
+   }
+#st #text{
+    position: absolute;
+    color: #FFF;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#st #text h1
+{
+    color: #FFF;
+    font-family: Source Serif Pro;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 16px;
+    text-align: center;
+}
+#st #text p
+{
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;    
+}
+
+#st #text  button{
+    display: flex;
+    width: 135px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color:  yellow;
+    color: black;
+    left: 50%;   
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translate(-30%,-30%);
+}
+#st #text  button:hover{
+    background-color: rgb(98, 103, 104);
+    color: rgb(255, 255, 255);
+}
+
+#txt{
+    color: var(--black, #333);
+    text-align: left;
+    font-family: Source Serif Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 265px;
+    margin-bottom: -10px;
+}
+#root{
+    display: inline-flex;
+    height: 283px;
+    align-items: center;
+    flex-shrink: 0;
+    display: inline-flex;
+    padding: 5px 164px 152px 254px;
+    text-align: center;
+}
+
+#root #lip{
+    background-color: #FFFFE9;
+    padding: 20px 20px 15px 40px;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+#root #lip #jip{
+    width: 490px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid var(--gray, #EFEFEF);
+    background: #FFFFE9;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+@media screen and(max-width:420px) {
+    #uilo{
+        width: 10px;
+    }
+    #tong{
+    width: 10px;
+    height: auto; 
+}
+#tong #topnav {
+    font-size: 12px;
+    font-weight: auto; 
+  
+}
+}
